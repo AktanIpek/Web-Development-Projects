@@ -1,0 +1,26 @@
+body {
+  color: white;
+  background-image: url("https://media.giphy.com/media/3o7TKz2eMXx7dn95FS/giphy.gif");
+  background-size: cover;
+  display: block;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 5px -5px 5px black;
+}
+
+.button {
+  padding: 10px 15px;
+  margin: auto;
+  background: white;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+}
+
+#main-logo {
+  width: 300px;
+}
+
+.underline {
+  border-bottom: 5px solid white;
+}
