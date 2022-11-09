@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form for App Academy</title>
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Person Information:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
 
+        <input type="radio" id="Teacher" name="Status" value="teacher" />
+        <label for="Teacher">Teacher</label><br />
+        <input type="radio" id="Student" name="Status" value="student" />
+        <label for="Student">Student</label><br />
+        <input type="radio" id="Guest" name="Status" value="guest" />
+        <label for="Guest">Guest</label>
+
+        <p>Choose your favorite programming language:</p>
+        <input type="radio" id="HTML" name="Language" value="HTML" />
+        <label for="HTML">HTML</label><br />
+        <input type="radio" id="Student" name="Language" value="CSS" />
+        <label for="CSS">CSS</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="Language"
+          value="JavaScript"
+        />
+        <label for="JS">JavaSript</label> <br /><br />
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start" name="trip-start" value="2022-11-09" />
+        <br />
+        <br />
+
+        <label for="information">Aditional Information:</label>
+
+        <textarea id="information" name="information" rows="5" cols="30">
+ Comments...</textarea
+        >
+        <br />
+        <br />
+
+        <input
+          type="checkbox"
+          id="conditions"
+          name="conditions"
+          value="terms"
+        />
+        <label for="vehicle1"> Agree to terms and conditions</label><br />
+        <input type="checkbox" id="sign up" name="sign up" value="newsletter" />
+        <label for="sign up"> Sign up for newsletter</label><br />
+
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
