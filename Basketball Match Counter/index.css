@@ -1,0 +1,61 @@
+body {
+  background-image: url("https://images.eurohoops.net/2020/05/841e2042-euroleague-ball-625x375.jpg");
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  max-width: 70%;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 30px 30px;
+  margin-top: 70px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: black;
+}
+
+#increment-btn:hover {
+  background: orange;
+  cursor: pointer;
+}
+
+#save-btn {
+  background: orange;
+}
+
+#save-btn:hover {
+  background: black;
+  cursor: pointer;
+}
+
+#save-el {
+  font-weight: bold;
+}
