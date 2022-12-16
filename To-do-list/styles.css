@@ -1,17 +1,17 @@
 /* Universal Styles */
 body {
   margin: 0px;
-  background-color: whitesmoke;
-  font-family: 'Rock Salt', cursive;
+  background-color: rgb(174, 141, 212);
+  font-family: "Rock Salt", cursive;
   text-align: center;
 }
 
 .secondary-background {
-  background-color: snow;
+  background-color: rgb(229, 225, 235);
 }
 
 .tagline {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: lightslategrey;
   line-height: 125px;
 }
@@ -19,9 +19,9 @@ body {
 /* Header */
 h1 {
   margin: 0;
-  background-color: steelblue;
+  background-color: rgb(18, 3, 26);
   line-height: 100px;
-  color: khaki;
+  color: rgb(174, 141, 212);
 }
 
 h2 {
@@ -36,9 +36,9 @@ h2 {
 
 /* To Do Section */
 .week {
-    display: inline-flex;
-    flex-grow: 3;
-    flex-direction:column;
+  display: inline-flex;
+  flex-grow: 3;
+  flex-direction: column;
 }
 
 .row {
