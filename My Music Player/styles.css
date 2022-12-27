@@ -100,3 +100,7 @@ nav .circle {
 .controls div:nth-child(2) {
   transform: scale(1.25); 
 }
+
+#song {
+  margin-top: 10px;
+}
